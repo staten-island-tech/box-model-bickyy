@@ -6,8 +6,7 @@ body {
 
 .header {
     height: 100vh;
-    background-color: rgb(106, 163, 238);
-
+    background-color: rgb(99, 98, 64);
     position: relative; 
 
 }
@@ -21,6 +20,7 @@ body {
 
 div{
     text-transform: uppercase;
+    text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
@@ -32,19 +32,24 @@ h1 {
 h2 {
     letter-spacing: 2px;
 }
-.photo1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index:10000;
-    transform: scale(.5);
+
+.pictures{
+    position: relative;
+    background-color:  rgb(255, 255, 255);
+    height: 60vh; 
+    width: 0vw ; 
+    margin: 0 auto;
 }
-.photo2 {
+
+.coffee {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    transform: scale(1.5);
+    transform: translate(-20%, -20%);
+    height: 20vh;
+}
+
+#master {
+    height: 20%;
+    transform: translate(30%, 30%);
 }
