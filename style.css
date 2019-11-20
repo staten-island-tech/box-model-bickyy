@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
-    padding: 0;
-    margin: -5rem;
+    padding: 1;
+   /* margin: 1rem;*/
     box-sizing: 0;
 }
 
@@ -23,18 +23,24 @@ html {
 }
 
 
+.title{
+    color:pink;
+}
+
 .coffee{
-    position: absolute;
-    top: 15rem;
-    left: 24rem;
     height: 30rem;
     z-index: 1;
 }
 
 .drink {
-    position: absolute;
-    top: 23rem;
-    left: 34rem;
     height: 15rem;
     z-index: 1000;  
+    position: absolute;
+    top: 22rem;
+    right: 80rem;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content: center;
 }
