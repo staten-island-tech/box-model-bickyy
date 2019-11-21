@@ -1,7 +1,7 @@
 html {
     font-size: 62.5%;
-    margin: 2rem;
-    box-sizing: 0;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .header {
@@ -12,33 +12,35 @@ html {
 .text{
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Rubik', sans-serif;
     position: relative; 
     letter-spacing: 2rem;
     font-size: 2rem;
-    top: 6rem;
-    padding: 1rem;
+    top: 6rem; 
 }
-.title {
-    color: pink
+
+
+.title{
+    color:pink;
 }
 
 .subtitle {
-    color: rgb(138, 215, 248); 
+    color: rgb(146, 204, 231);
 }
+
 .coffee{
-    position: absolute;
-    top: 15rem;
-    left: 24rem;
     height: 30rem;
     z-index: 1;
+    position: absolute;
+    top: 25rem;
+    right: 74rem;
 }
 
 .drink {
-    position: absolute;
-    top: 23rem;
-    left: 34rem;
     height: 15rem;
     z-index: 1000;  
+    position: absolute;
+    top: 32rem;
+    right: 82rem;
 }
+
